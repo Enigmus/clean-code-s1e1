@@ -47,7 +47,7 @@ ul {
 }
 
 li, 
-h3 {
+h2 {
   list-style:none;
 }
 
@@ -71,7 +71,7 @@ button:hover {
 }
 
 /* Heading */
-h3,
+h2,
 .new-task {
   color: #333;
   font-weight: 700;
@@ -166,4 +166,12 @@ ul li input[type=text] {
 
 .edit-mode label {
   display:none;
+}
+
+.hidden_header {
+  visibility: hidden;
+  height: 0;
+  appearance: none;
+  margin: 0;
+  padding: 0;
 }
